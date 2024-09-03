@@ -1,0 +1,831 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{15FB97C3-FC4E-4B1C-9F5A-314149235297}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PAYADATA</RootNamespace>
+    <AssemblyName>PAYADATA</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>http://localhost/PAYADATA/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Data.SqlServerCe, Version=3.5.1.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="checklist\Datalinqchecklist.cs">
+      <DependentUpon>Datalinqchecklist.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="checklist\Datalinqchecklist.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Datalinqchecklist.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="checklist\DataSetchecklist.cs">
+      <DependentUpon>DataSetchecklist.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="checklist\DataSetchecklist.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetchecklist.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="checklist\DataSetchecklist1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetchecklist1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Class1.cs" />
+    <Compile Include="coding\DataSetcoding.cs">
+      <DependentUpon>DataSetcoding.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="coding\DataSetcoding.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetcoding.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="coding\DataSet_ObjectTree.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_ObjectTree.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="coding\Data_linq_coding_object.cs">
+      <DependentUpon>Data_linq_coding_object.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="coding\Data_linq_coding_object.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Data_linq_coding_object.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="coding\dsallobject.cs">
+      <DependentUpon>dsallobject.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="coding\dsallobject.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsallobject.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datalinqactioncenter.cs">
+      <DependentUpon>Datalinqactioncenter.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Datalinqactioncenter.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Datalinqactioncenter.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Datalinqcurrent.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Datalinqcurrent.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DataLinqpowerjack.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataLinqpowerjack.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Datalinqserviceprogram.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Datalinqserviceprogram.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="dataserservic.cs">
+      <DependentUpon>dataserservic.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dataserservic.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dataserservic.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasetactioncenter.cs">
+      <DependentUpon>Datasetactioncenter.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasetactioncenter.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Datasetactioncenter.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetautintication.cs">
+      <DependentUpon>DataSetautintication.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetautintication.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetautintication.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasetcurrent.cs">
+      <DependentUpon>Datasetcurrent.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasetcurrent.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Datasetcurrent.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetobjectmasrafri.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetobjectmasrafri.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetrequestconstruct.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetrequestconstruct.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetsupplier.cs">
+      <DependentUpon>DataSetsupplier.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetsupplier.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetsupplier.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datatrubleshooting.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Datatrubleshooting.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DetailsDevice\DataSet_DetailDevice.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_DetailDevice.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="disposal_object\mobject_disposal.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>mobject_disposal.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="disposal_object\dsdisposl_object.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsdisposl_object.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsmttr.cs">
+      <DependentUpon>dsmttr.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsmttr.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsmttr.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dspersentavailable.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dspersentavailable.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dsworker.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Dsworker.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="indicator\Datalinqpercentrealizationprogram.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Datalinqpercentrealizationprogram.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="indicator\DataSetpercentrealizationprogram.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetpercentrealizationprogram.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="interuptcomp\data-interupt_comp.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>data-interupt_comp.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="data_event.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>data_event.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="data_name_operator.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>data_name_operator.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="interuptcomp\Data_interup_truble.cs">
+      <DependentUpon>Data_interup_truble.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="interuptcomp\Data_interup_truble.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Data_interup_truble.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="interuptcomp\dsinteruptcomp.cs">
+      <DependentUpon>dsinteruptcomp.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="interuptcomp\dsinteruptcomp.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsinteruptcomp.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="interuptplan\dsinteruptplan.cs">
+      <DependentUpon>dsinteruptplan.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="interuptplan\dsinteruptplan.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsinteruptplan.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="interuptplan\Dsinteruptplanforprint.cs">
+      <DependentUpon>Dsinteruptplanforprint.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="interuptplan\Dsinteruptplanforprint.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Dsinteruptplanforprint.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="interuptplan\lqinterupt_plan.cs">
+      <DependentUpon>lqinterupt_plan.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="interuptplan\lqinterupt_plan.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lqinterupt_plan.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="kwh\core.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>core.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ObjectDevice\DataSet_ObjectDevice.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_ObjectDevice.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ObjectLocation\DataSet_ObjectLocation.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_ObjectLocation.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="payazobnetDataSet.cs">
+      <DependentUpon>payazobnetDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="payazobnetDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>payazobnetDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="powerjack.cs">
+      <DependentUpon>powerjack.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="powerjack.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>powerjack.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="trubleshooting\Datalinqtrubleshooting.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Datalinqtrubleshooting.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="trubleshooting\DataSettrubleshooting.cs">
+      <DependentUpon>DataSettrubleshooting.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="trubleshooting\DataSettrubleshooting.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSettrubleshooting.xsd</DependentUpon>
+    </Compile>
+    <None Include="checklist\Datalinqchecklist.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>Datalinqchecklist.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="checklist\DataSetchecklist.xsc">
+      <DependentUpon>DataSetchecklist.xsd</DependentUpon>
+    </None>
+    <None Include="checklist\DataSetchecklist.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetchecklist.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="checklist\DataSetchecklist.xss">
+      <DependentUpon>DataSetchecklist.xsd</DependentUpon>
+    </None>
+    <None Include="checklist\DataSetchecklist1.xsc">
+      <DependentUpon>DataSetchecklist1.xsd</DependentUpon>
+    </None>
+    <None Include="checklist\DataSetchecklist1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetchecklist1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="checklist\DataSetchecklist1.xss">
+      <DependentUpon>DataSetchecklist1.xsd</DependentUpon>
+    </None>
+    <None Include="coding\DataSetcoding.xsc">
+      <DependentUpon>DataSetcoding.xsd</DependentUpon>
+    </None>
+    <None Include="coding\DataSetcoding.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetcoding.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="coding\DataSetcoding.xss">
+      <DependentUpon>DataSetcoding.xsd</DependentUpon>
+    </None>
+    <None Include="coding\DataSet_ObjectTree.xsc">
+      <DependentUpon>DataSet_ObjectTree.xsd</DependentUpon>
+    </None>
+    <None Include="coding\DataSet_ObjectTree.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_ObjectTree.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="coding\DataSet_ObjectTree.xss">
+      <DependentUpon>DataSet_ObjectTree.xsd</DependentUpon>
+    </None>
+    <None Include="coding\Data_linq_coding_object.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>Data_linq_coding_object.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Datalinqactioncenter.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>Datalinqactioncenter.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Datalinqcurrent.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>Datalinqcurrent.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataLinqpowerjack.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>DataLinqpowerjack.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Datalinqserviceprogram.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>Datalinqserviceprogram.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Datasetactioncenter.xsc">
+      <DependentUpon>Datasetactioncenter.xsd</DependentUpon>
+    </None>
+    <None Include="Datasetactioncenter.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Datasetactioncenter.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Datasetactioncenter.xss">
+      <DependentUpon>Datasetactioncenter.xsd</DependentUpon>
+    </None>
+    <None Include="Datasetcurrent.xsc">
+      <DependentUpon>Datasetcurrent.xsd</DependentUpon>
+    </None>
+    <None Include="Datasetcurrent.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Datasetcurrent.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Datasetcurrent.xss">
+      <DependentUpon>Datasetcurrent.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetobjectmasrafri.xsc">
+      <DependentUpon>DataSetobjectmasrafri.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetobjectmasrafri.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetobjectmasrafri.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetobjectmasrafri.xss">
+      <DependentUpon>DataSetobjectmasrafri.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetrequestconstruct.xsc">
+      <DependentUpon>DataSetrequestconstruct.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetrequestconstruct.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetrequestconstruct.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetrequestconstruct.xss">
+      <DependentUpon>DataSetrequestconstruct.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetsupplier.xsc">
+      <DependentUpon>DataSetsupplier.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetsupplier.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetsupplier.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetsupplier.xss">
+      <DependentUpon>DataSetsupplier.xsd</DependentUpon>
+    </None>
+    <None Include="DetailsDevice\DataSet_DetailDevice.xsc">
+      <DependentUpon>DataSet_DetailDevice.xsd</DependentUpon>
+    </None>
+    <None Include="DetailsDevice\DataSet_DetailDevice.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_DetailDevice.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DetailsDevice\DataSet_DetailDevice.xss">
+      <DependentUpon>DataSet_DetailDevice.xsd</DependentUpon>
+    </None>
+    <None Include="disposal_object\mobject_disposal.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>mobject_disposal.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="disposal_object\dsdisposl_object.xsc">
+      <DependentUpon>dsdisposl_object.xsd</DependentUpon>
+    </None>
+    <None Include="disposal_object\dsdisposl_object.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsdisposl_object.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="disposal_object\dsdisposl_object.xss">
+      <DependentUpon>dsdisposl_object.xsd</DependentUpon>
+    </None>
+    <None Include="dsmttr.xsc">
+      <DependentUpon>dsmttr.xsd</DependentUpon>
+    </None>
+    <None Include="dsmttr.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsmttr.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsmttr.xss">
+      <DependentUpon>dsmttr.xsd</DependentUpon>
+    </None>
+    <None Include="dspersentavailable.xsc">
+      <DependentUpon>dspersentavailable.xsd</DependentUpon>
+    </None>
+    <None Include="dspersentavailable.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dspersentavailable.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dspersentavailable.xss">
+      <DependentUpon>dspersentavailable.xsd</DependentUpon>
+    </None>
+    <None Include="Dsworker.xsc">
+      <DependentUpon>Dsworker.xsd</DependentUpon>
+    </None>
+    <None Include="Dsworker.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Dsworker.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Dsworker.xss">
+      <DependentUpon>Dsworker.xsd</DependentUpon>
+    </None>
+    <None Include="indicator\Datalinqpercentrealizationprogram.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>Datalinqpercentrealizationprogram.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="indicator\DataSetpercentrealizationprogram.xsc">
+      <DependentUpon>DataSetpercentrealizationprogram.xsd</DependentUpon>
+    </None>
+    <None Include="indicator\DataSetpercentrealizationprogram.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetpercentrealizationprogram.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="indicator\DataSetpercentrealizationprogram.xss">
+      <DependentUpon>DataSetpercentrealizationprogram.xsd</DependentUpon>
+    </None>
+    <None Include="interuptcomp\Data_interup_truble.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>Data_interup_truble.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ObjectDevice\DataSet_ObjectDevice.xsc">
+      <DependentUpon>DataSet_ObjectDevice.xsd</DependentUpon>
+    </None>
+    <None Include="ObjectDevice\DataSet_ObjectDevice.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_ObjectDevice.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ObjectDevice\DataSet_ObjectDevice.xss">
+      <DependentUpon>DataSet_ObjectDevice.xsd</DependentUpon>
+    </None>
+    <None Include="ObjectLocation\DataSet_ObjectLocation.xsc">
+      <DependentUpon>DataSet_ObjectLocation.xsd</DependentUpon>
+    </None>
+    <None Include="ObjectLocation\DataSet_ObjectLocation.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_ObjectLocation.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ObjectLocation\DataSet_ObjectLocation.xss">
+      <DependentUpon>DataSet_ObjectLocation.xsd</DependentUpon>
+    </None>
+    <None Include="powerjack.xsc">
+      <DependentUpon>powerjack.xsd</DependentUpon>
+    </None>
+    <None Include="powerjack.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>powerjack.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="powerjack.xss">
+      <DependentUpon>powerjack.xsd</DependentUpon>
+    </None>
+    <None Include="trubleshooting\Datalinqtrubleshooting.dbml.layout">
+      <DependentUpon>Datalinqtrubleshooting.dbml</DependentUpon>
+    </None>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="coding\dsallobject.xsc">
+      <DependentUpon>dsallobject.xsd</DependentUpon>
+    </None>
+    <None Include="coding\dsallobject.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsallobject.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="coding\dsallobject.xss">
+      <DependentUpon>dsallobject.xsd</DependentUpon>
+    </None>
+    <None Include="dataserservic.xsc">
+      <DependentUpon>dataserservic.xsd</DependentUpon>
+    </None>
+    <None Include="dataserservic.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dataserservic.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dataserservic.xss">
+      <DependentUpon>dataserservic.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetautintication.xsc">
+      <DependentUpon>DataSetautintication.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetautintication.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetautintication.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetautintication.xss">
+      <DependentUpon>DataSetautintication.xsd</DependentUpon>
+    </None>
+    <None Include="Datatrubleshooting.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>Datatrubleshooting.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="interuptcomp\data-interupt_comp.dbml.layout">
+      <DependentUpon>data-interupt_comp.dbml</DependentUpon>
+    </None>
+    <None Include="data_event.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>data_event.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data_name_operator.dbml.layout">
+      <DependentUpon>data_name_operator.dbml</DependentUpon>
+    </None>
+    <None Include="data_event.dbml.layout">
+      <DependentUpon>data_event.dbml</DependentUpon>
+    </None>
+    <None Include="interuptplan\Dsinteruptplanforprint.xsc">
+      <DependentUpon>Dsinteruptplanforprint.xsd</DependentUpon>
+    </None>
+    <None Include="interuptplan\Dsinteruptplanforprint.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Dsinteruptplanforprint.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="interuptplan\Dsinteruptplanforprint.xss">
+      <DependentUpon>Dsinteruptplanforprint.xsd</DependentUpon>
+    </None>
+    <None Include="interuptplan\lqinterupt_plan.dbml.layout">
+      <DependentUpon>lqinterupt_plan.dbml</DependentUpon>
+    </None>
+    <None Include="Datatrubleshooting.dbml.layout">
+      <DependentUpon>Datatrubleshooting.dbml</DependentUpon>
+    </None>
+    <None Include="Datalinqserviceprogram.dbml.layout">
+      <DependentUpon>Datalinqserviceprogram.dbml</DependentUpon>
+    </None>
+    <None Include="indicator\Datalinqpercentrealizationprogram.dbml.layout">
+      <DependentUpon>Datalinqpercentrealizationprogram.dbml</DependentUpon>
+    </None>
+    <None Include="coding\Data_linq_coding_object.dbml.layout">
+      <DependentUpon>Data_linq_coding_object.dbml</DependentUpon>
+    </None>
+    <None Include="Datalinqactioncenter.dbml.layout">
+      <DependentUpon>Datalinqactioncenter.dbml</DependentUpon>
+    </None>
+    <None Include="interuptcomp\Data_interup_truble.dbml.layout">
+      <DependentUpon>Data_interup_truble.dbml</DependentUpon>
+    </None>
+    <None Include="checklist\Datalinqchecklist.dbml.layout">
+      <DependentUpon>Datalinqchecklist.dbml</DependentUpon>
+    </None>
+    <None Include="DataLinqpowerjack.dbml.layout">
+      <DependentUpon>DataLinqpowerjack.dbml</DependentUpon>
+    </None>
+    <None Include="Datalinqcurrent.dbml.layout">
+      <DependentUpon>Datalinqcurrent.dbml</DependentUpon>
+    </None>
+    <None Include="disposal_object\mobject_disposal.dbml.layout">
+      <DependentUpon>mobject_disposal.dbml</DependentUpon>
+    </None>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="interuptcomp\data-interupt_comp.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>data-interupt_comp.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data_name_operator.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>data_name_operator.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="interuptcomp\dsinteruptcomp.xsc">
+      <DependentUpon>dsinteruptcomp.xsd</DependentUpon>
+    </None>
+    <None Include="interuptcomp\dsinteruptcomp.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsinteruptcomp.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="interuptcomp\dsinteruptcomp.xss">
+      <DependentUpon>dsinteruptcomp.xsd</DependentUpon>
+    </None>
+    <None Include="interuptplan\dsinteruptplan.xsc">
+      <DependentUpon>dsinteruptplan.xsd</DependentUpon>
+    </None>
+    <None Include="interuptplan\dsinteruptplan.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsinteruptplan.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="interuptplan\dsinteruptplan.xss">
+      <DependentUpon>dsinteruptplan.xsd</DependentUpon>
+    </None>
+    <None Include="interuptplan\lqinterupt_plan.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>lqinterupt_plan.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="kwh\core.xsc">
+      <DependentUpon>core.xsd</DependentUpon>
+    </None>
+    <None Include="kwh\core.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>core.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="kwh\core.xss">
+      <DependentUpon>core.xsd</DependentUpon>
+    </None>
+    <None Include="payazobnetDataSet.xsc">
+      <DependentUpon>payazobnetDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="payazobnetDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>payazobnetDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="payazobnetDataSet.xss">
+      <DependentUpon>payazobnetDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="trubleshooting\Datalinqtrubleshooting.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>Datalinqtrubleshooting.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="trubleshooting\DataSettrubleshooting.xsc">
+      <DependentUpon>DataSettrubleshooting.xsd</DependentUpon>
+    </None>
+    <None Include="trubleshooting\DataSettrubleshooting.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSettrubleshooting.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="trubleshooting\DataSettrubleshooting.xss">
+      <DependentUpon>DataSettrubleshooting.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SQL.Server.Compact.3.5">
+      <Visible>False</Visible>
+      <ProductName>SQL Server Compact 3.5 SP2</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Validation\Validation.csproj">
+      <Project>{BAD64A31-79D2-408C-A438-2C57CC28571D}</Project>
+      <Name>Validation</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

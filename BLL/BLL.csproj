@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D909B9D2-4EA0-4C0C-8588-B9D4A98C5BDE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BLL</RootNamespace>
+    <AssemblyName>BLL</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v21.1, Version=21.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpo.v21.1, Version=21.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccidentsMinor\Accidents.cs" />
+    <Compile Include="Aid\csAid.cs" />
+    <Compile Include="AnalyzeFurnace\csAnalyzeFurnace.cs" />
+    <Compile Include="BalanceBeginningMaterial\csBalanceBeginningMaterial.cs" />
+    <Compile Include="BalanceBeginningPieces\csBalanceBeginningPieces.cs" />
+    <Compile Include="BalanceBeginning\csBalanceBeginnig.cs" />
+    <Compile Include="BossReport\csBossReport.cs" />
+    <Compile Include="BudgetPlan\csBudgetPlan.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="authentication.cs" />
+    <Compile Include="Class2.cs" />
+    <Compile Include="CodingGoods\csCodingGoods.cs" />
+    <Compile Include="ConfirmMoldCompressNumber\csConfirmMoldCompressNumber.cs" />
+    <Compile Include="Connection\csConnection.cs" />
+    <Compile Include="ControlPrj\csControlPrj.cs" />
+    <Compile Include="CorrectiveAction\csCorrectiveAction.cs" />
+    <Compile Include="csCompony.cs" />
+    <Compile Include="csCorrespondence.cs" />
+    <Compile Include="csCustomer.cs" />
+    <Compile Include="csDefect.cs" />
+    <Compile Include="csElement.cs" />
+    <Compile Include="csEvent.cs" />
+    <Compile Include="csFoundry.cs" />
+    <Compile Include="csInventory.cs" />
+    <Compile Include="csMaterial.cs" />
+    <Compile Include="csPhone.cs" />
+    <Compile Include="csPieces.cs" />
+    <Compile Include="csProcurement.cs" />
+    <Compile Include="csQualityControl.cs" />
+    <Compile Include="csRegisteringGroup.cs" />
+    <Compile Include="csReturnCustomer.cs" />
+    <Compile Include="csSand.cs" />
+    <Compile Include="csSection.cs" />
+    <Compile Include="csshamsidate.cs" />
+    <Compile Include="csShift.cs" />
+    <Compile Include="CustomerReturn\csCustomerReturn.cs" />
+    <Compile Include="CustomerReturn\csCustomerReturnTurning.cs" />
+    <Compile Include="DayHourPlanning\csDayHourPlanning.cs" />
+    <Compile Include="Defect\csDefect.cs" />
+    <Compile Include="DeliveryWareHouse\csDeliveryWareHouse.cs" />
+    <Compile Include="Destruction\csDestruction.cs" />
+    <Compile Include="DeviceTree\csDeviceTree.cs" />
+    <Compile Include="ExitPermit\csExitPermit.cs" />
+    <Compile Include="FIFO\csInvMaterial.cs" />
+    <Compile Include="GageList\csGageList.cs" />
+    <Compile Include="GenGroup\csGenGroup.cs" />
+    <Compile Include="Hygiene\csHygiene.cs" />
+    <Compile Include="Inventory\csInventory.cs" />
+    <Compile Include="Inventory\csInventoryScrab.cs" />
+    <Compile Include="Inventory\csInventoryTurning.cs" />
+    <Compile Include="Inventory\csSendProductTurning.cs" />
+    <Compile Include="KPI\csKPI.cs" />
+    <Compile Include="MachineSettingChange\csMachineSettingChange.cs" />
+    <Compile Include="Machine\csMachine.cs" />
+    <Compile Include="ManagerReport\csManagerReport.cs" />
+    <Compile Include="Marquee\csMarquee.cs" />
+    <Compile Include="MaterialLocation\csMatarialLocation.cs" />
+    <Compile Include="Model\csModel.cs" />
+    <Compile Include="Mold\csMold.cs" />
+    <Compile Include="MuscleProduct\csMuscleProduct.cs" />
+    <Compile Include="NesPrcSPC\csNesPrcSpc.cs" />
+    <Compile Include="Object\csObject.cs" />
+    <Compile Include="OverTime\csOverTime.cs" />
+    <Compile Include="PearsonCorrelation\csPearsonCorrelation.cs" />
+    <Compile Include="Person\csPersonInfo.cs" />
+    <Compile Include="PiecesCorrectiveMachining\csPiecesCorrectiveMachining.cs" />
+    <Compile Include="Procurement\csProcurmentMaterialSample.cs" />
+    <Compile Include="Procurement\csProcurmentMaterialToMachining.cs" />
+    <Compile Include="Procurement\csProcurmentMaterialTurning.cs" />
+    <Compile Include="ProductOperation\csProductOperation.cs" />
+    <Compile Include="ProductPiecesOnMolding\csProductPiecesOnMolding.cs" />
+    <Compile Include="ProductPlanning\csProductPlanning.cs" />
+    <Compile Include="ProductRepairRequest\csProductRepairRequest.cs" />
+    <Compile Include="QualityControl\csProductInspectionMachining.cs" />
+    <Compile Include="RegEntExit\csRegEntExit.cs" />
+    <Compile Include="Register\csRegister.cs" />
+    <Compile Include="Reproduct\csReproduct.cs" />
+    <Compile Include="RequestItService\csRequestItService.cs" />
+    <Compile Include="RequestObject\csRequestObject.cs" />
+    <Compile Include="SalePlan\csSalePlanTurning.cs" />
+    <Compile Include="Sand\scSPC.cs" />
+    <Compile Include="ScrabUsage\ScrabUsage.cs" />
+    <Compile Include="SendMessage\csMessage.cs" />
+    <Compile Include="Module\Module.cs" />
+    <Compile Include="MoldingDownTime\MoldingDownTime.cs" />
+    <Compile Include="Nonconforming\csNonconforming.cs" />
+    <Compile Include="PerFoodStatus\csPerFoodStatus.cs" />
+    <Compile Include="Poem\csPoem.cs" />
+    <Compile Include="Procurement\csProcurmentMaterialTest.cs" />
+    <Compile Include="Procurement\csProcurmentScarbTest.cs" />
+    <Compile Include="Procurement\ProcurementSalesProducts.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SalePlan\csSalePlan.cs" />
+    <Compile Include="Schedule\csSchedule.cs" />
+    <Compile Include="Section\csSection.cs" />
+    <Compile Include="SendPiecesToProduct\csSendPiecesToProduct.cs" />
+    <Compile Include="SendProductInspectionMachining\csSendProductInspectionMachining.cs" />
+    <Compile Include="SendProductToTurning\csSendProductToTurning.cs" />
+    <Compile Include="SendProduct\Standard\csStandard.cs" />
+    <Compile Include="Service References\ServiceReference1\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\ServiceReferenceTest\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="ShotBlasting\csShotBlasting.cs" />
+    <Compile Include="SMS\csSMS.cs" />
+    <Compile Include="State\csState.cs" />
+    <Compile Include="TimeLine\csTimeLine.cs" />
+    <Compile Include="Tools\csTools.cs" />
+    <Compile Include="User.cs" />
+    <Compile Include="WorkHour\csWorkHour.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{F0274000-1FF3-423E-B3E7-B76A5905BB4F}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Service References\ServiceReference1\service.wsdl" />
+    <None Include="Service References\ServiceReferenceTest\FirstWebService.wsdl" />
+    <None Include="Service References\ServiceReferenceTest\FirstWebService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceReferenceTest\FirstWebService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\ServiceReference1\" />
+    <WCFMetadataStorage Include="Service References\ServiceReferenceTest\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceReferenceTest\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceReferenceTest\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceReferenceTest\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceReference1\service.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceReference1\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceReference1\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceReference1\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
