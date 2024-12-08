@@ -1,12 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\Payazob",
-    "\\Payazob\\FRM",
-    "\\Payazob\\FRM\\Mold",
-    "\\Payazob\\MyControl",
-    "\\Payazob\\MyControl\\Chart"
+    ""
   ],
-  "SelectedNode": "\\Payazob\\MyControl\\Chart\\uc_ChartInvCollect.cs",
+  "SelectedNode": "\\PAYAZOB.sln",
   "PreviewInSolutionExplorer": false
 }
