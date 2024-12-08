@@ -57,3 +57,11 @@ E:\MIS\Pa0yazob\Pa0yazob000\DAL\obj\Debug\DAL.dll
 E:\MIS\Pa0yazob\Pa0yazob000\DAL\obj\Debug\DAL.pdb
 E:\MIS\Pa0yazob\Pa0yazob000\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
 D:\MIS\Pa0yazob000\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\r.tavili\source\repos\payazob\DAL\bin\Debug\DAL.dll.config
+C:\Users\r.tavili\source\repos\payazob\DAL\bin\Debug\DAL.dll
+C:\Users\r.tavili\source\repos\payazob\DAL\bin\Debug\DAL.pdb
+C:\Users\r.tavili\source\repos\payazob\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\r.tavili\source\repos\payazob\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\r.tavili\source\repos\payazob\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\r.tavili\source\repos\payazob\DAL\obj\Debug\DAL.dll
+C:\Users\r.tavili\source\repos\payazob\DAL\obj\Debug\DAL.pdb

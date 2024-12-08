@@ -45,9 +45,7 @@ namespace Payazob
             this.ActiveControl = textBox1;
             CheakWorkYear();
             ledBulbCheck();
-            ledBulb_1.Blink(200);
-            ledBulb_2.Blink(200);
-            ledBulb_3.Blink(200);
+
 
             //    new frmKey().Show();
 
@@ -59,42 +57,30 @@ namespace Payazob
             bool tag_3 = new BLL.TimeLine.csTimeLine().SlTimeLineMachineLastStatus(BLL.csshamsidate.shamsidate, 53);
             if (tag_1)
             {
-                ledBulb_1.Color = Color.Green;
-                ledBulb_1.DarkDarkColor = Color.Green;
-                ledBulb_1.DarkColor = Color.Green;
+
 
             }
             else
             {
-                ledBulb_1.Color = Color.Red;
-             //   ledBulb_1.DarkDarkColor = Color.Red;
-                ledBulb_1.DarkColor = Color.Red;
+
             }
             if (tag_2)
             {
-                ledBulb_2.Color = Color.Green;
-                ledBulb_2.DarkDarkColor = Color.Green;
-                ledBulb_2.DarkColor = Color.Green;
+
 
             }
             else
             {
-                ledBulb_2.Color = Color.Red;
-                ledBulb_2.DarkColor = Color.Red;
-               // ledBulb_2.DarkDarkColor = Color.Red;
+
             }
 
             if (tag_3)
             {
-                ledBulb_3.Color = Color.Green;
-                ledBulb_3.DarkColor = Color.Green;
-                ledBulb_3.DarkDarkColor = Color.Green;
+
             }
             else
             {
-                ledBulb_3.Color = Color.Red;
-                //  ledBulb_3.DarkDarkColor = Color.Red;
-                ledBulb_3.DarkColor = Color.Red;
+
             }
         }
         void InvChart()
@@ -107,7 +93,6 @@ namespace Payazob
                 splitContainer4.Panel2.Controls.Add(cnt);
                 uc_Poem1.Visible = false;
 
-                pnl_logo.Visible = false;
 
             }
             else
@@ -118,7 +103,6 @@ namespace Payazob
                         splitContainer4.Panel2.Controls.Remove(item);
                 }
                 uc_Poem1.Visible = true;
-                pnl_logo.Visible = true;
             }
         }
         bool expandtreeview = true;
@@ -339,8 +323,7 @@ namespace Payazob
                 FrmPopUp(); 
                 xPopTime = 0;
 
-                if(pnl_LedSite1.Visible == true)
-                 ledBulbCheck();
+
 
             }
 

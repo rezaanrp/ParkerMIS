@@ -792,6 +792,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataSet_Status.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Test\DataSet_Test.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_Test.xsd</DependentUpon>
+    </Compile>
     <Compile Include="TimeLine\DataSet_TimeLineMachine.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -2099,6 +2104,17 @@
     </None>
     <None Include="Status\DataSet_Status.xss">
       <DependentUpon>DataSet_Status.xsd</DependentUpon>
+    </None>
+    <None Include="Test\DataSet_Test.xsc">
+      <DependentUpon>DataSet_Test.xsd</DependentUpon>
+    </None>
+    <None Include="Test\DataSet_Test.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_Test.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Test\DataSet_Test.xss">
+      <DependentUpon>DataSet_Test.xsd</DependentUpon>
     </None>
     <None Include="TimeLine\DataSet_TimeLineMachine.xsc">
       <DependentUpon>DataSet_TimeLineMachine.xsd</DependentUpon>

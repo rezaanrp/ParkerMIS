@@ -34,3 +34,10 @@ E:\MIS\Pa0yazob\Pa0yazob000\DLQ\obj\Debug\DLQ.dll
 E:\MIS\Pa0yazob\Pa0yazob000\DLQ\obj\Debug\DLQ.pdb
 E:\MIS\Pa0yazob\Pa0yazob000\DLQ\obj\Debug\DLQ.csproj.AssemblyReference.cache
 D:\MIS\Pa0yazob000\DLQ\obj\Debug\DLQ.csproj.AssemblyReference.cache
+C:\Users\r.tavili\source\repos\payazob\DLQ\bin\Debug\DLQ.dll.config
+C:\Users\r.tavili\source\repos\payazob\DLQ\bin\Debug\DLQ.dll
+C:\Users\r.tavili\source\repos\payazob\DLQ\bin\Debug\DLQ.pdb
+C:\Users\r.tavili\source\repos\payazob\DLQ\obj\Debug\DLQ.csproj.AssemblyReference.cache
+C:\Users\r.tavili\source\repos\payazob\DLQ\obj\Debug\DLQ.csproj.CoreCompileInputs.cache
+C:\Users\r.tavili\source\repos\payazob\DLQ\obj\Debug\DLQ.dll
+C:\Users\r.tavili\source\repos\payazob\DLQ\obj\Debug\DLQ.pdb

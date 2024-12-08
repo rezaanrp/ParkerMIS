@@ -21,8 +21,8 @@ namespace Payazob.MyControl.Chart
             Thread thread_SlStockPiecesGrp = new Thread(new ThreadStart(SlStockPiecesGrp));
             thread_SlStockPiecesGrp.Start();
 
-            Thread thread_SlInventoryScrab = new Thread(new ThreadStart(SlInventoryScrab));
-            thread_SlInventoryScrab.Start();
+            //Thread thread_SlInventoryScrab = new Thread(new ThreadStart(SlInventoryScrab));
+            //thread_SlInventoryScrab.Start();
 
             Thread thread_SlInventoryAllMaterial = new Thread(new ThreadStart(SlInventoryAllMaterial));
             thread_SlInventoryAllMaterial.Start();
@@ -63,13 +63,13 @@ namespace Payazob.MyControl.Chart
             // MessageBox.Show("Finish");
             flg_SlStockPiecesGrp = true;
         }
-        void SlInventoryScrab()
-        {
-            BLL.Inventory.csInventoryScrab cs = new BLL.Inventory.csInventoryScrab();
-             dt_SlInventoryScrab = cs.SlInventoryScrab(Payazob.Properties.Settings.Default.WorkYear, "1400/12/30", Payazob.Properties.Settings.Default.WorkYear);
-            // MessageBox.Show("Finish");
-             flg_SlInventoryScrab = true;
-        }
+        //void SlInventoryScrab()
+        //{
+        //    BLL.Inventory.csInventoryScrab cs = new BLL.Inventory.csInventoryScrab();
+        //     dt_SlInventoryScrab = cs.SlInventoryScrab(Payazob.Properties.Settings.Default.WorkYear, "1400/12/30", Payazob.Properties.Settings.Default.WorkYear);
+        //    // MessageBox.Show("Finish");
+        //     flg_SlInventoryScrab = true;
+        //}
         void SlInventoryAllMaterial()
         {
             BLL.ManagerReport.csManagerReport cs = new BLL.ManagerReport.csManagerReport();

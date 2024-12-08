@@ -34,3 +34,10 @@ E:\MIS\Pa0yazob\Pa0yazob000\AwModelData\obj\Debug\AwModelData.dll
 E:\MIS\Pa0yazob\Pa0yazob000\AwModelData\obj\Debug\AwModelData.pdb
 E:\MIS\Pa0yazob\Pa0yazob000\AwModelData\obj\Debug\AwModelData.csproj.AssemblyReference.cache
 D:\MIS\Pa0yazob000\AwModelData\obj\Debug\AwModelData.csproj.AssemblyReference.cache
+C:\Users\r.tavili\source\repos\payazob\AwModelData\bin\Debug\AwModelData.dll.config
+C:\Users\r.tavili\source\repos\payazob\AwModelData\bin\Debug\AwModelData.dll
+C:\Users\r.tavili\source\repos\payazob\AwModelData\bin\Debug\AwModelData.pdb
+C:\Users\r.tavili\source\repos\payazob\AwModelData\obj\Debug\AwModelData.csproj.AssemblyReference.cache
+C:\Users\r.tavili\source\repos\payazob\AwModelData\obj\Debug\AwModelData.csproj.CoreCompileInputs.cache
+C:\Users\r.tavili\source\repos\payazob\AwModelData\obj\Debug\AwModelData.dll
+C:\Users\r.tavili\source\repos\payazob\AwModelData\obj\Debug\AwModelData.pdb

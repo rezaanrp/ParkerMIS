@@ -6,7 +6,7 @@
       <Value Profile="(Default)">username</Value>
     </Setting>
     <Setting Name="WorkYear" Type="System.String" Scope="User">
-      <Value Profile="(Default)">1401/01/01</Value>
+      <Value Profile="(Default)">1403/01/01</Value>
     </Setting>
     <Setting Name="Schedule_" Type="System.String" Scope="User">
       <Value Profile="(Default)">-1</Value>

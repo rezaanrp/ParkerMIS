@@ -154,9 +154,9 @@
                 //case "PerFoodCenterPrice":
                 //    dt = new BLL.PerFoodStatus.csPerFoodStatus().SlPerFoodCenterPrice(DateFrom, DateTo);
                 //    break;
-                case "InventoryScrab":
-                    dt = new BLL.Inventory.csInventoryScrab().SlInventoryScrab(DateFrom, DateTo, Payazob.Properties.Settings.Default.WorkYear);
-                    break;
+                //case "InventoryScrab":
+                //    dt = new BLL.Inventory.csInventoryScrab().SlInventoryScrab(DateFrom, DateTo, Payazob.Properties.Settings.Default.WorkYear);
+                //    break;
                 case "ProcurmentScrabSuStu":
                     dt = new BLL.Procurement.csProcurmentScarbTest().SlProcurmentScrabSuStu(DateFrom, DateTo);
                     break;

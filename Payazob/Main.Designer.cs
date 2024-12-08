@@ -31,16 +31,6 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.pnl_LedSite1 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.ledBulb_3 = new ControlLibrary.LedBulb();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.ledBulb_1 = new ControlLibrary.LedBulb();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.ledBulb_2 = new ControlLibrary.LedBulb();
             this.btn_exit = new System.Windows.Forms.Button();
             this.btn_return = new System.Windows.Forms.Button();
             this.btn_ChangePass = new System.Windows.Forms.Button();
@@ -56,7 +46,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.treeView1 = new System.Windows.Forms.TreeView();
-            this.pnl_logo = new System.Windows.Forms.Panel();
             this.uc_Poem1 = new ControlLibrary.uc_Poem();
             this.lblMarquee = new System.Windows.Forms.Label();
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
@@ -73,10 +62,6 @@
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
-            this.pnl_LedSite1.SuspendLayout();
-            this.panel4.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
             this.pnl_MailBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer4)).BeginInit();
             this.splitContainer4.Panel1.SuspendLayout();
@@ -106,7 +91,6 @@
             // splitContainer1.Panel1
             // 
             this.splitContainer1.Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.splitContainer1.Panel1.Controls.Add(this.pnl_LedSite1);
             this.splitContainer1.Panel1.Controls.Add(this.btn_exit);
             this.splitContainer1.Panel1.Controls.Add(this.btn_return);
             this.splitContainer1.Panel1.Controls.Add(this.btn_ChangePass);
@@ -123,108 +107,10 @@
             this.splitContainer1.Panel2.Controls.Add(this.splitContainer4);
             this.splitContainer1.Panel2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.splitContainer1.Panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.splitContainer1_Panel2_Paint);
-            this.splitContainer1.Size = new System.Drawing.Size(885, 374);
+            this.splitContainer1.Size = new System.Drawing.Size(949, 479);
             this.splitContainer1.SplitterDistance = 145;
             this.splitContainer1.SplitterWidth = 5;
             this.splitContainer1.TabIndex = 0;
-            // 
-            // pnl_LedSite1
-            // 
-            this.pnl_LedSite1.Controls.Add(this.panel4);
-            this.pnl_LedSite1.Controls.Add(this.panel2);
-            this.pnl_LedSite1.Controls.Add(this.panel3);
-            this.pnl_LedSite1.Location = new System.Drawing.Point(-2, 348);
-            this.pnl_LedSite1.Name = "pnl_LedSite1";
-            this.pnl_LedSite1.Size = new System.Drawing.Size(148, 100);
-            this.pnl_LedSite1.TabIndex = 3;
-            this.pnl_LedSite1.Visible = false;
-            // 
-            // panel4
-            // 
-            this.panel4.Controls.Add(this.label3);
-            this.panel4.Controls.Add(this.ledBulb_3);
-            this.panel4.Location = new System.Drawing.Point(4, 68);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(79, 29);
-            this.panel4.TabIndex = 12;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(42, 6);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(24, 14);
-            this.label3.TabIndex = 10;
-            this.label3.Text = "دیزا";
-            // 
-            // ledBulb_3
-            // 
-            this.ledBulb_3.DarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(0)))));
-            this.ledBulb_3.DarkDarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.ledBulb_3.Location = new System.Drawing.Point(3, 1);
-            this.ledBulb_3.Name = "ledBulb_3";
-            this.ledBulb_3.On = true;
-            this.ledBulb_3.Size = new System.Drawing.Size(22, 25);
-            this.ledBulb_3.TabIndex = 9;
-            this.ledBulb_3.Text = "ledBulb_3";
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.label1);
-            this.panel2.Controls.Add(this.ledBulb_1);
-            this.panel2.Location = new System.Drawing.Point(4, 3);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(79, 29);
-            this.panel2.TabIndex = 10;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(34, 7);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(42, 14);
-            this.label1.TabIndex = 10;
-            this.label1.Text = "خط یک";
-            // 
-            // ledBulb_1
-            // 
-            this.ledBulb_1.DarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(0)))));
-            this.ledBulb_1.DarkDarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.ledBulb_1.Location = new System.Drawing.Point(3, 3);
-            this.ledBulb_1.Name = "ledBulb_1";
-            this.ledBulb_1.On = true;
-            this.ledBulb_1.Size = new System.Drawing.Size(22, 25);
-            this.ledBulb_1.TabIndex = 9;
-            this.ledBulb_1.Text = "ledBulb1";
-            // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.label2);
-            this.panel3.Controls.Add(this.ledBulb_2);
-            this.panel3.Location = new System.Drawing.Point(4, 35);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(79, 29);
-            this.panel3.TabIndex = 11;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(35, 6);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(38, 14);
-            this.label2.TabIndex = 10;
-            this.label2.Text = "خط دو";
-            // 
-            // ledBulb_2
-            // 
-            this.ledBulb_2.DarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(0)))));
-            this.ledBulb_2.DarkDarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.ledBulb_2.Location = new System.Drawing.Point(3, 3);
-            this.ledBulb_2.Name = "ledBulb_2";
-            this.ledBulb_2.On = true;
-            this.ledBulb_2.Size = new System.Drawing.Size(22, 25);
-            this.ledBulb_2.TabIndex = 9;
-            this.ledBulb_2.Text = "ledBulb_2";
             // 
             // btn_exit
             // 
@@ -405,11 +291,10 @@
             // splitContainer4.Panel2
             // 
             this.splitContainer4.Panel2.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.splitContainer4.Panel2.Controls.Add(this.pnl_logo);
             this.splitContainer4.Panel2.Controls.Add(this.uc_Poem1);
             this.splitContainer4.Panel2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.splitContainer4.Panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.splitContainer4_Panel2_Paint);
-            this.splitContainer4.Size = new System.Drawing.Size(735, 374);
+            this.splitContainer4.Size = new System.Drawing.Size(799, 479);
             this.splitContainer4.SplitterDistance = 273;
             this.splitContainer4.TabIndex = 0;
             // 
@@ -443,7 +328,7 @@
             this.textBox1.ForeColor = System.Drawing.Color.Black;
             this.textBox1.Location = new System.Drawing.Point(29, 0);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(244, 23);
+            this.textBox1.Size = new System.Drawing.Size(244, 27);
             this.textBox1.TabIndex = 0;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -463,26 +348,18 @@
             this.treeView1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.treeView1.RightToLeftLayout = true;
             this.treeView1.ShowRootLines = false;
-            this.treeView1.Size = new System.Drawing.Size(273, 354);
+            this.treeView1.Size = new System.Drawing.Size(273, 459);
             this.treeView1.TabIndex = 1;
             this.treeView1.NodeMouseDoubleClick += new System.Windows.Forms.TreeNodeMouseClickEventHandler(this.treeView1_NodeMouseDoubleClick);
-            // 
-            // pnl_logo
-            // 
-            this.pnl_logo.BackgroundImage = global::Payazob.Properties.Resources.logo;
-            this.pnl_logo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnl_logo.Location = new System.Drawing.Point(3, 3);
-            this.pnl_logo.Name = "pnl_logo";
-            this.pnl_logo.Size = new System.Drawing.Size(118, 53);
-            this.pnl_logo.TabIndex = 2;
             // 
             // uc_Poem1
             // 
             this.uc_Poem1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.uc_Poem1.ForeColor = System.Drawing.Color.White;
-            this.uc_Poem1.Location = new System.Drawing.Point(0, 344);
+            this.uc_Poem1.Location = new System.Drawing.Point(0, 449);
+            this.uc_Poem1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.uc_Poem1.Name = "uc_Poem1";
-            this.uc_Poem1.Size = new System.Drawing.Size(458, 30);
+            this.uc_Poem1.Size = new System.Drawing.Size(522, 30);
             this.uc_Poem1.TabIndex = 1;
             // 
             // lblMarquee
@@ -491,7 +368,7 @@
             this.lblMarquee.ForeColor = System.Drawing.Color.White;
             this.lblMarquee.Location = new System.Drawing.Point(12, 4);
             this.lblMarquee.Name = "lblMarquee";
-            this.lblMarquee.Size = new System.Drawing.Size(0, 14);
+            this.lblMarquee.Size = new System.Drawing.Size(0, 18);
             this.lblMarquee.TabIndex = 0;
             // 
             // splitContainer2
@@ -516,7 +393,7 @@
             // 
             this.splitContainer2.Panel2.Controls.Add(this.splitContainer3);
             this.splitContainer2.Panel2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.splitContainer2.Size = new System.Drawing.Size(885, 432);
+            this.splitContainer2.Size = new System.Drawing.Size(949, 537);
             this.splitContainer2.SplitterDistance = 25;
             this.splitContainer2.TabIndex = 1;
             // 
@@ -526,9 +403,9 @@
             this.lbl_DateNow.AutoSize = true;
             this.lbl_DateNow.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_DateNow.ForeColor = System.Drawing.Color.White;
-            this.lbl_DateNow.Location = new System.Drawing.Point(590, 7);
+            this.lbl_DateNow.Location = new System.Drawing.Point(654, 7);
             this.lbl_DateNow.Name = "lbl_DateNow";
-            this.lbl_DateNow.Size = new System.Drawing.Size(31, 14);
+            this.lbl_DateNow.Size = new System.Drawing.Size(38, 18);
             this.lbl_DateNow.TabIndex = 11;
             this.lbl_DateNow.Text = "***";
             // 
@@ -537,7 +414,7 @@
             this.lbl_date.AutoSize = true;
             this.lbl_date.Location = new System.Drawing.Point(898, 7);
             this.lbl_date.Name = "lbl_date";
-            this.lbl_date.Size = new System.Drawing.Size(38, 14);
+            this.lbl_date.Size = new System.Drawing.Size(44, 18);
             this.lbl_date.TabIndex = 2;
             this.lbl_date.Text = "label5";
             // 
@@ -559,7 +436,7 @@
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(34, 7);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(224, 14);
+            this.label4.Size = new System.Drawing.Size(266, 18);
             this.label4.TabIndex = 0;
             this.label4.Text = "the author of this software is reza tavili ";
             this.label4.Visible = false;
@@ -584,8 +461,8 @@
             this.splitContainer3.Panel2.Controls.Add(this.lblMarquee);
             this.splitContainer3.Panel2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.splitContainer3.Panel2.DoubleClick += new System.EventHandler(this.splitContainer3_Panel2_DoubleClick);
-            this.splitContainer3.Size = new System.Drawing.Size(885, 403);
-            this.splitContainer3.SplitterDistance = 374;
+            this.splitContainer3.Size = new System.Drawing.Size(949, 508);
+            this.splitContainer3.SplitterDistance = 479;
             this.splitContainer3.TabIndex = 1;
             // 
             // timer1
@@ -602,25 +479,26 @@
             // 
             // contextMenuStrip1
             // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsmi_Exit});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.contextMenuStrip1.Size = new System.Drawing.Size(100, 26);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(111, 28);
             // 
             // tsmi_Exit
             // 
             this.tsmi_Exit.Name = "tsmi_Exit";
-            this.tsmi_Exit.Size = new System.Drawing.Size(99, 22);
+            this.tsmi_Exit.Size = new System.Drawing.Size(110, 24);
             this.tsmi_Exit.Text = "خروج";
             this.tsmi_Exit.Click += new System.EventHandler(this.tsmi_Exit_Click);
             // 
             // Main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
-            this.ClientSize = new System.Drawing.Size(885, 432);
+            this.ClientSize = new System.Drawing.Size(949, 537);
             this.Controls.Add(this.splitContainer2);
             this.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -633,13 +511,6 @@
             this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
-            this.pnl_LedSite1.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
             this.pnl_MailBox.ResumeLayout(false);
             this.splitContainer4.Panel1.ResumeLayout(false);
             this.splitContainer4.Panel2.ResumeLayout(false);
@@ -684,22 +555,11 @@
         private System.Windows.Forms.Button btn_AccessRights;
         private System.Windows.Forms.Button btn_ChangePass;
         private System.Windows.Forms.Button btn_exit;
-        private System.Windows.Forms.Panel pnl_logo;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btn_workYear;
         private System.Windows.Forms.Button btn_ReportMan;
-        private ControlLibrary.LedBulb ledBulb_1;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Label label3;
-        private ControlLibrary.LedBulb ledBulb_3;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label2;
-        private ControlLibrary.LedBulb ledBulb_2;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel pnl_LedSite1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label lbl_date;

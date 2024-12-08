@@ -46,7 +46,7 @@
             // 
             this.txt_user.Location = new System.Drawing.Point(214, 96);
             this.txt_user.Name = "txt_user";
-            this.txt_user.Size = new System.Drawing.Size(137, 21);
+            this.txt_user.Size = new System.Drawing.Size(137, 24);
             this.txt_user.TabIndex = 3;
             // 
             // txt_pass
@@ -54,7 +54,7 @@
             this.txt_pass.Location = new System.Drawing.Point(214, 130);
             this.txt_pass.Name = "txt_pass";
             this.txt_pass.PasswordChar = '*';
-            this.txt_pass.Size = new System.Drawing.Size(137, 21);
+            this.txt_pass.Size = new System.Drawing.Size(137, 24);
             this.txt_pass.TabIndex = 0;
             this.txt_pass.UseSystemPasswordChar = true;
             // 
@@ -91,7 +91,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(357, 96);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(53, 13);
+            this.label1.Size = new System.Drawing.Size(66, 17);
             this.label1.TabIndex = 4;
             this.label1.Text = "نام کاربری";
             // 
@@ -100,14 +100,13 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(357, 137);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(45, 13);
+            this.label2.Size = new System.Drawing.Size(54, 17);
             this.label2.TabIndex = 5;
             this.label2.Text = "رمز عبور";
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Orange;
-            this.pictureBox1.Image = global::Payazob.Properties.Resources.Payazob1;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(435, 79);
@@ -137,7 +136,7 @@
             // frmLogin
             // 
             this.AcceptButton = this.btn_login;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.CancelButton = this.btn_exit;

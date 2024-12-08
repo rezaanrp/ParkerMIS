@@ -37,7 +37,7 @@ namespace Payazob.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("1401/01/01")]
+        [global::System.Configuration.DefaultSettingValueAttribute("1403/01/01")]
         public string WorkYear {
             get {
                 return ((string)(this["WorkYear"]));

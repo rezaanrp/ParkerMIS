@@ -14,3 +14,9 @@ E:\MIS\Pa0yazob\Pa0yazob000\Tools.rtv\obj\Debug\Tools.rtv.csproj.CoreCompileInpu
 E:\MIS\Pa0yazob\Pa0yazob000\Tools.rtv\obj\Debug\Tools.rtv.dll
 E:\MIS\Pa0yazob\Pa0yazob000\Tools.rtv\obj\Debug\Tools.rtv.pdb
 D:\MIS\Pa0yazob000\Tools.rtv\obj\Debug\Tools.rtv.csproj.AssemblyReference.cache
+C:\Users\r.tavili\source\repos\payazob\Tools.rtv\bin\Debug\Tools.rtv.dll
+C:\Users\r.tavili\source\repos\payazob\Tools.rtv\bin\Debug\Tools.rtv.pdb
+C:\Users\r.tavili\source\repos\payazob\Tools.rtv\obj\Debug\Tools.rtv.csproj.AssemblyReference.cache
+C:\Users\r.tavili\source\repos\payazob\Tools.rtv\obj\Debug\Tools.rtv.csproj.CoreCompileInputs.cache
+C:\Users\r.tavili\source\repos\payazob\Tools.rtv\obj\Debug\Tools.rtv.dll
+C:\Users\r.tavili\source\repos\payazob\Tools.rtv\obj\Debug\Tools.rtv.pdb

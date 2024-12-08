@@ -101,3 +101,14 @@ E:\MIS\Pa0yazob\Pa0yazob000\Report\obj\Debug\Report.dll
 E:\MIS\Pa0yazob\Pa0yazob000\Report\obj\Debug\Report.pdb
 E:\MIS\Pa0yazob\Pa0yazob000\Report\obj\Debug\Report.csproj.AssemblyReference.cache
 D:\MIS\Pa0yazob000\Report\obj\Debug\Report.csproj.AssemblyReference.cache
+C:\Users\r.tavili\source\repos\payazob\Report\bin\Debug\Report.dll.config
+C:\Users\r.tavili\source\repos\payazob\Report\bin\Debug\Report.dll
+C:\Users\r.tavili\source\repos\payazob\Report\bin\Debug\Report.pdb
+C:\Users\r.tavili\source\repos\payazob\Report\obj\Debug\Report.csproj.AssemblyReference.cache
+C:\Users\r.tavili\source\repos\payazob\Report\obj\Debug\Report.Form1.resources
+C:\Users\r.tavili\source\repos\payazob\Report\obj\Debug\Report.Properties.Resources.resources
+C:\Users\r.tavili\source\repos\payazob\Report\obj\Debug\Report.csproj.GenerateResource.cache
+C:\Users\r.tavili\source\repos\payazob\Report\obj\Debug\Report.csproj.CoreCompileInputs.cache
+C:\Users\r.tavili\source\repos\payazob\Report\obj\Debug\Report.csproj.CopyComplete
+C:\Users\r.tavili\source\repos\payazob\Report\obj\Debug\Report.dll
+C:\Users\r.tavili\source\repos\payazob\Report\obj\Debug\Report.pdb

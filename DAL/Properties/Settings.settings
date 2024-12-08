@@ -5,14 +5,6 @@
     <Setting Name="Con" Type="System.String" Scope="User">
       <Value Profile="(Default)">Data Source =192.168.15.1000000;Initial Catalog=Payazob; User ID=MisParker;Password=Darchob@4444</Value>
     </Setting>
-    <Setting Name="Payazob_ImageConnectionString1" Type="(Connection string)" Scope="Application">
-      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
-&lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
-  &lt;ConnectionString&gt;Data Source =192.168.15.9;Initial Catalog=Payazob_Image;User ID=MisParker;Password=Darchob@4444 &lt;/ConnectionString&gt;
-  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
-&lt;/SerializableConnectionString&gt;</DesignTimeValue>
-      <Value Profile="(Default)">Data Source =192.168.15.9;Initial Catalog=Payazob_Image;User ID=MisParker;Password=Darchob@4444 </Value>
-    </Setting>
     <Setting Name="EOSConnectionString1" Type="(Connection string)" Scope="Application">
       <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
@@ -24,10 +16,18 @@
     <Setting Name="PayazobConnectionString" Type="(Connection string)" Scope="Application">
       <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
-  &lt;ConnectionString&gt; Data Source=127.0.0.1;Initial Catalog=Payazob; User ID=sa;Password=K500at10&lt;/ConnectionString&gt;
+  &lt;ConnectionString&gt; Data Source=192.168.200.202;Initial Catalog=Parker; User ID=sa;Password=K500at10@@&lt;/ConnectionString&gt;
   &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
 &lt;/SerializableConnectionString&gt;</DesignTimeValue>
-      <Value Profile="(Default)"> Data Source=127.0.0.1;Initial Catalog=Payazob; User ID=sa;Password=K500at10</Value>
+      <Value Profile="(Default)"> Data Source=192.168.200.202;Initial Catalog=Parker; User ID=sa;Password=K500at10@@</Value>
+    </Setting>
+    <Setting Name="Payazob_ImageConnectionString1" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ConnectionString&gt;Data Source =192.168.200.202;Initial Catalog=Payazob_Image;User ID=MisParker;Password=Darchob@4444 &lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source =192.168.200.202;Initial Catalog=Payazob_Image;User ID=MisParker;Password=Darchob@4444 </Value>
     </Setting>
   </Settings>
 </SettingsFile>

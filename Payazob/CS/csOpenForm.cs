@@ -10,6 +10,9 @@ namespace Payazob.CS
 
             switch (frm)
             {
+                case "frmTest":
+                    f = new FRM.Test.frmTest();
+                    break;
                 case "PerFoodToken":
                     f = new frmEmpty_Report("SlPerFoodToken", "crsPerFoodToken");
                     (f as frmEmpty_Report).ReportHaveDateDetails = true;

@@ -162,6 +162,7 @@
     <Compile Include="ShotBlasting\csShotBlasting.cs" />
     <Compile Include="SMS\csSMS.cs" />
     <Compile Include="State\csState.cs" />
+    <Compile Include="Test\csTest.cs" />
     <Compile Include="TimeLine\csTimeLine.cs" />
     <Compile Include="Tools\csTools.cs" />
     <Compile Include="User.cs" />
